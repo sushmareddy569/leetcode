@@ -16,4 +16,10 @@ public class ContainsDuplicateII {
 		}
 		return false;
 	}
+	
+	public static void main(String[] args) {
+		ContainsDuplicateII c = new ContainsDuplicateII();
+		boolean result = c.containsNearbyDuplicate(new int[] {1, 2, 3}, 2);
+		System.out.println(result);
+	}
 }
